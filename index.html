@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Example</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="tab">
+      <div class="btns">
+        <button class="btn active" onclick="toggleBtnActive(this,'div1')">Button 1</button>
+        <button class="btn" onclick="toggleBtnActive(this,'div2')">Button 2</button>
+        <button class="btn" onclick="toggleBtnActive(this,'div3')">Button 3</button>
+      </div>
+      <div class="content active" id="div1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet corrupti ducimus quas animi magni, blanditiis
+          et ipsa facere? Ipsam fugiat ipsum omnis eius eaque! Exercitationem quos aliquam impedit veritatis ut?</p>
+      </div>
+      <div class="content" id="div2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore molestiae at, fuga tempora totam? Ut quas
+          distinctio minima. Veritatis beatae tempora ipsum sapiente maxime reiciendis magni, suscipit aliquid fugit.
+        </p>
+      </div>
+      <div class="content" id="div3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptate reiciendis commodi nihil architecto
+          accusantium aliquid reprehenderit assumenda. Porro esse quaerat, corporis repudiandae pariatur praesentium
+          explicabo eos recusandae nihil facere.</p>
+      </div>
+    </section>
+  </div>
+
+  <script src='./js.js'></script>
+</body>
+
+</html>
